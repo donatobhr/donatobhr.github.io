@@ -1,0 +1,414 @@
+/* line 4, ../sass/style.scss */
+* {
+  font-family: roboto;
+}
+
+/* line 8, ../sass/style.scss */
+.education_section, section.education_section, section.skills_section, section.portafolio_section, section.thats_all_section, section.contact_section {
+  padding-top: 1px;
+}
+
+/* line 12, ../sass/style.scss */
+.cinta, section.education_section .cinta, section.skills_section .cinta, section.portafolio_section .cinta, section.thats_all_section .cinta, section.contact_section .cinta {
+  text-align: center;
+  margin-top: 18px;
+  box-shadow: 0px 3px 12px #000;
+}
+
+/* line 18, ../sass/style.scss */
+.title_span, section.education_section .education .formal_education .education_type span, section.skills_section .education .formal_education .education_type span, section.portafolio_section .education .formal_education .education_type span, section.thats_all_section .education .formal_education .education_type span, section.contact_section .education .formal_education .education_type span, section.skills_section .skills .formal_education .education_type span, section.portafolio_section .portafolio .formal_education .education_type span, section.contact_section .contact .formal_education .education_type span, section.education_section .education .mooc_education .education_type span, section.skills_section .education .mooc_education .education_type span, section.portafolio_section .education .mooc_education .education_type span, section.thats_all_section .education .mooc_education .education_type span, section.contact_section .education .mooc_education .education_type span, section.skills_section .skills .mooc_education .education_type span, section.portafolio_section .portafolio .mooc_education .education_type span, section.contact_section .contact .mooc_education .education_type span, section.skills_section .skills .card .skills_type span {
+  padding: 7px 20px;
+  border-radius: 19px;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 25, ../sass/style.scss */
+ul.nav {
+  display: inline-block;
+  position: fixed;
+  top: 30%;
+  right: 0;
+  z-index: 4;
+}
+
+/* line 33, ../sass/style.scss */
+ul.nav li.active {
+  background-color: #27961e !important;
+  opacity: .4;
+  color: #fff;
+}
+
+/* line 39, ../sass/style.scss */
+ul.nav a {
+  color: #9e9e9e;
+}
+
+/* line 42, ../sass/style.scss */
+ul.nav a li {
+  background-color: #8e2fa5;
+  opacity: .2;
+  color: #9e9e9e;
+  cursor: pointer;
+}
+/* line 47, ../sass/style.scss */
+ul.nav a li:hover {
+  background-color: #27961e;
+  opacity: 1;
+  color: #fff;
+}
+
+/* line 54, ../sass/style.scss */
+ul.nav a li {
+  color: inherit;
+  padding: 10px 16px;
+}
+/* line 57, ../sass/style.scss */
+ul.nav a li:hover {
+  color: #fff;
+}
+
+/* line 63, ../sass/style.scss */
+.principal_section {
+  background-image: url("../images/office.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 68, ../sass/style.scss */
+.principal_section .black_back {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+}
+/* line 73, ../sass/style.scss */
+.principal_section .black_back .language_div {
+  text-align: center;
+  padding-top: 6px;
+}
+/* line 77, ../sass/style.scss */
+.principal_section .black_back .language_div .language_english {
+  background-color: #27961e;
+  color: #fff;
+  margin-left: 15px;
+  cursor: pointer;
+}
+/* line 84, ../sass/style.scss */
+.principal_section .black_back .language_div .language_spanish {
+  background-color: #8e2fa5;
+  color: #fff;
+  margin-left: 15px;
+  cursor: pointer;
+}
+/* line 92, ../sass/style.scss */
+.principal_section .black_back .full_name {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 8rem;
+  margin-top: 11.1rem;
+}
+/* line 97, ../sass/style.scss */
+.principal_section .black_back .full_name h1 {
+  font-size: 5.2rem;
+}
+/* line 101, ../sass/style.scss */
+.principal_section .black_back .full_name h4 {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  margin-top: 0.14rem;
+  padding: 13px 30px;
+}
+
+/* line 111, ../sass/style.scss */
+section.education_section, section.skills_section, section.portafolio_section, section.thats_all_section, section.contact_section {
+  background-color: #efefef;
+}
+/* line 115, ../sass/style.scss */
+section.education_section .cinta, section.skills_section .cinta, section.portafolio_section .cinta, section.thats_all_section .cinta, section.contact_section .cinta {
+  background-color: #8e2fa5;
+}
+/* line 119, ../sass/style.scss */
+section.education_section .cinta span, section.skills_section .cinta span, section.portafolio_section .cinta span, section.thats_all_section .cinta span, section.contact_section .cinta span {
+  font-weight: bold;
+  color: #fff;
+  padding: 7px 0;
+  display: block;
+  font-size: 19px;
+}
+/* line 128, ../sass/style.scss */
+section.education_section .education, section.skills_section .education, section.portafolio_section .education, section.thats_all_section .education, section.contact_section .education, section.skills_section .skills, section.portafolio_section .portafolio, section.contact_section .contact {
+  margin-top: 52px;
+  padding-bottom: 52px;
+}
+/* line 133, ../sass/style.scss */
+section.education_section .education .formal_education .card-content, section.skills_section .education .formal_education .card-content, section.portafolio_section .education .formal_education .card-content, section.thats_all_section .education .formal_education .card-content, section.contact_section .education .formal_education .card-content, section.skills_section .skills .formal_education .card-content, section.portafolio_section .portafolio .formal_education .card-content, section.contact_section .contact .formal_education .card-content {
+  padding-bottom: 50px;
+}
+/* line 137, ../sass/style.scss */
+section.education_section .education .formal_education .education_type, section.skills_section .education .formal_education .education_type, section.portafolio_section .education .formal_education .education_type, section.thats_all_section .education .formal_education .education_type, section.contact_section .education .formal_education .education_type, section.skills_section .skills .formal_education .education_type, section.portafolio_section .portafolio .formal_education .education_type, section.contact_section .contact .formal_education .education_type {
+  text-align: center;
+}
+/* line 139, ../sass/style.scss */
+section.education_section .education .formal_education .education_type span, section.skills_section .education .formal_education .education_type span, section.portafolio_section .education .formal_education .education_type span, section.thats_all_section .education .formal_education .education_type span, section.contact_section .education .formal_education .education_type span, section.skills_section .skills .formal_education .education_type span, section.portafolio_section .portafolio .formal_education .education_type span, section.contact_section .contact .formal_education .education_type span {
+  background: #27961e;
+}
+/* line 145, ../sass/style.scss */
+section.education_section .education .formal_education ul > li.school_type, section.skills_section .education .formal_education ul > li.school_type, section.portafolio_section .education .formal_education ul > li.school_type, section.thats_all_section .education .formal_education ul > li.school_type, section.contact_section .education .formal_education ul > li.school_type, section.skills_section .skills .formal_education ul > li.school_type, section.portafolio_section .portafolio .formal_education ul > li.school_type, section.contact_section .contact .formal_education ul > li.school_type {
+  font-style: italic;
+  margin-top: 50px;
+}
+/* line 149, ../sass/style.scss */
+section.education_section .education .formal_education ul > li.school_type span, section.skills_section .education .formal_education ul > li.school_type span, section.portafolio_section .education .formal_education ul > li.school_type span, section.thats_all_section .education .formal_education ul > li.school_type span, section.contact_section .education .formal_education ul > li.school_type span, section.skills_section .skills .formal_education ul > li.school_type span, section.portafolio_section .portafolio .formal_education ul > li.school_type span, section.contact_section .contact .formal_education ul > li.school_type span {
+  text-decoration: underline;
+}
+/* line 153, ../sass/style.scss */
+section.education_section .education .formal_education ul > li.school_type ul > li, section.skills_section .education .formal_education ul > li.school_type ul > li, section.portafolio_section .education .formal_education ul > li.school_type ul > li, section.thats_all_section .education .formal_education ul > li.school_type ul > li, section.contact_section .education .formal_education ul > li.school_type ul > li, section.skills_section .skills .formal_education ul > li.school_type ul > li, section.portafolio_section .portafolio .formal_education ul > li.school_type ul > li, section.contact_section .contact .formal_education ul > li.school_type ul > li {
+  font-style: normal;
+  text-decoration: none !important;
+  margin-left: 13px;
+}
+/* line 159, ../sass/style.scss */
+section.education_section .education .formal_education ul > li.school_type ul > li > a, section.skills_section .education .formal_education ul > li.school_type ul > li > a, section.portafolio_section .education .formal_education ul > li.school_type ul > li > a, section.thats_all_section .education .formal_education ul > li.school_type ul > li > a, section.contact_section .education .formal_education ul > li.school_type ul > li > a, section.skills_section .skills .formal_education ul > li.school_type ul > li > a, section.portafolio_section .portafolio .formal_education ul > li.school_type ul > li > a, section.contact_section .contact .formal_education ul > li.school_type ul > li > a {
+  color: #186b3a;
+}
+/* line 166, ../sass/style.scss */
+section.education_section .education .mooc_education .card-content, section.skills_section .education .mooc_education .card-content, section.portafolio_section .education .mooc_education .card-content, section.thats_all_section .education .mooc_education .card-content, section.contact_section .education .mooc_education .card-content, section.skills_section .skills .mooc_education .card-content, section.portafolio_section .portafolio .mooc_education .card-content, section.contact_section .contact .mooc_education .card-content {
+  padding-bottom: 50px;
+}
+/* line 170, ../sass/style.scss */
+section.education_section .education .mooc_education .education_type, section.skills_section .education .mooc_education .education_type, section.portafolio_section .education .mooc_education .education_type, section.thats_all_section .education .mooc_education .education_type, section.contact_section .education .mooc_education .education_type, section.skills_section .skills .mooc_education .education_type, section.portafolio_section .portafolio .mooc_education .education_type, section.contact_section .contact .mooc_education .education_type {
+  text-align: center;
+}
+/* line 172, ../sass/style.scss */
+section.education_section .education .mooc_education .education_type span, section.skills_section .education .mooc_education .education_type span, section.portafolio_section .education .mooc_education .education_type span, section.thats_all_section .education .mooc_education .education_type span, section.contact_section .education .mooc_education .education_type span, section.skills_section .skills .mooc_education .education_type span, section.portafolio_section .portafolio .mooc_education .education_type span, section.contact_section .contact .mooc_education .education_type span {
+  background: #27961e;
+}
+/* line 178, ../sass/style.scss */
+section.education_section .education .mooc_education ul > li.mooc_name, section.skills_section .education .mooc_education ul > li.mooc_name, section.portafolio_section .education .mooc_education ul > li.mooc_name, section.thats_all_section .education .mooc_education ul > li.mooc_name, section.contact_section .education .mooc_education ul > li.mooc_name, section.skills_section .skills .mooc_education ul > li.mooc_name, section.portafolio_section .portafolio .mooc_education ul > li.mooc_name, section.contact_section .contact .mooc_education ul > li.mooc_name {
+  font-style: italic;
+  margin-top: 50px;
+}
+/* line 182, ../sass/style.scss */
+section.education_section .education .mooc_education ul > li.mooc_name span, section.skills_section .education .mooc_education ul > li.mooc_name span, section.portafolio_section .education .mooc_education ul > li.mooc_name span, section.thats_all_section .education .mooc_education ul > li.mooc_name span, section.contact_section .education .mooc_education ul > li.mooc_name span, section.skills_section .skills .mooc_education ul > li.mooc_name span, section.portafolio_section .portafolio .mooc_education ul > li.mooc_name span, section.contact_section .contact .mooc_education ul > li.mooc_name span {
+  text-decoration: underline;
+}
+/* line 186, ../sass/style.scss */
+section.education_section .education .mooc_education ul > li.mooc_name ul > li, section.skills_section .education .mooc_education ul > li.mooc_name ul > li, section.portafolio_section .education .mooc_education ul > li.mooc_name ul > li, section.thats_all_section .education .mooc_education ul > li.mooc_name ul > li, section.contact_section .education .mooc_education ul > li.mooc_name ul > li, section.skills_section .skills .mooc_education ul > li.mooc_name ul > li, section.portafolio_section .portafolio .mooc_education ul > li.mooc_name ul > li, section.contact_section .contact .mooc_education ul > li.mooc_name ul > li {
+  font-style: normal;
+  text-decoration: none !important;
+  margin-left: 13px;
+}
+/* line 192, ../sass/style.scss */
+section.education_section .education .mooc_education ul > li.mooc_name ul > li > a, section.skills_section .education .mooc_education ul > li.mooc_name ul > li > a, section.portafolio_section .education .mooc_education ul > li.mooc_name ul > li > a, section.thats_all_section .education .mooc_education ul > li.mooc_name ul > li > a, section.contact_section .education .mooc_education ul > li.mooc_name ul > li > a, section.skills_section .skills .mooc_education ul > li.mooc_name ul > li > a, section.portafolio_section .portafolio .mooc_education ul > li.mooc_name ul > li > a, section.contact_section .contact .mooc_education ul > li.mooc_name ul > li > a {
+  color: #186b3a;
+}
+
+/*Skill section*/
+/* line 203, ../sass/style.scss */
+section.skills_section {
+  background-color: #fff;
+}
+/* line 207, ../sass/style.scss */
+section.skills_section .cinta {
+  background-color: #27961e;
+}
+/* line 211, ../sass/style.scss */
+section.skills_section .cinta span {
+  font-weight: bold;
+  color: #fff;
+  padding: 7px 0;
+  display: block;
+  font-size: 19px;
+}
+/* line 223, ../sass/style.scss */
+section.skills_section .skills .card {
+  background-color: #efefef;
+}
+/* line 226, ../sass/style.scss */
+section.skills_section .skills .card .line_progress {
+  margin-top: 25px;
+}
+/* line 229, ../sass/style.scss */
+section.skills_section .skills .card .line_progress span {
+  color: #8e2fa5;
+  font-weight: bold;
+}
+/* line 234, ../sass/style.scss */
+section.skills_section .skills .card .line_progress .porcent {
+  float: right;
+}
+/* line 238, ../sass/style.scss */
+section.skills_section .skills .card .line_progress .progress {
+  background-color: #b5b5b5;
+  height: 5px;
+}
+/* line 242, ../sass/style.scss */
+section.skills_section .skills .card .line_progress .progress .determinate {
+  background-color: #8e2fa5;
+  width: 0px;
+  transition: width 300ms ease-in-out;
+}
+/* line 250, ../sass/style.scss */
+section.skills_section .skills .card .skills_type {
+  text-align: center;
+}
+/* line 253, ../sass/style.scss */
+section.skills_section .skills .card .skills_type span {
+  background-color: #8e2fa5;
+}
+
+/*portafolio_section*/
+/* line 264, ../sass/style.scss */
+section.portafolio_section {
+  background-color: #efefef;
+}
+/* line 268, ../sass/style.scss */
+section.portafolio_section .cinta {
+  background-color: #8e2fa5;
+}
+/* line 276, ../sass/style.scss */
+section.portafolio_section .portafolio .card {
+  background-image: url("../images/office.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* line 281, ../sass/style.scss */
+section.portafolio_section .portafolio .card .card-content {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 100px 24px;
+}
+/* line 286, ../sass/style.scss */
+section.portafolio_section .portafolio .card .card-content span {
+  color: #fff;
+  font-weight: bold;
+}
+/* line 294, ../sass/style.scss */
+section.portafolio_section .portafolio .see_more_git a {
+  color: #27961e;
+  font-size: 16px;
+}
+/* line 298, ../sass/style.scss */
+section.portafolio_section .portafolio .see_more_git a i {
+  color: #8e2fa5;
+}
+
+/* line 307, ../sass/style.scss */
+section.thats_all_section {
+  background-color: #fff;
+  text-align: center;
+}
+/* line 312, ../sass/style.scss */
+section.thats_all_section span {
+  margin: 10px 0;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 17px;
+}
+/* line 318, ../sass/style.scss */
+section.thats_all_section span i.green_color {
+  color: #27961e;
+  font-style: normal;
+}
+/* line 323, ../sass/style.scss */
+section.thats_all_section span i.purple_color {
+  color: #8e2fa5;
+  font-style: normal;
+}
+
+/* line 335, ../sass/style.scss */
+section.contact_section .cinta {
+  background-color: #27961e;
+}
+/* line 342, ../sass/style.scss */
+section.contact_section .contact .row {
+  width: 69%;
+}
+/* line 347, ../sass/style.scss */
+section.contact_section .contact .input-field input[type=text],
+section.contact_section .contact .input-field input[type=email],
+section.contact_section .contact .input-field textarea.materialize-textarea {
+  border-bottom: 1px solid #8e2fa5;
+}
+/* line 351, ../sass/style.scss */
+section.contact_section .contact .input-field input[type=text]:focus,
+section.contact_section .contact .input-field input[type=email]:focus,
+section.contact_section .contact .input-field textarea.materialize-textarea:focus {
+  border-bottom: 1px solid #27961e;
+}
+/* line 355, ../sass/style.scss */
+section.contact_section .contact .input-field input[type=text]:focus + label,
+section.contact_section .contact .input-field input[type=email]:focus + label,
+section.contact_section .contact .input-field textarea.materialize-textarea:focus + label {
+  color: #27961e;
+}
+/* line 360, ../sass/style.scss */
+section.contact_section .contact .input-field .prefix {
+  top: 16px;
+}
+/* line 364, ../sass/style.scss */
+section.contact_section .contact .input-field .prefix.active {
+  color: #27961e;
+}
+/* line 369, ../sass/style.scss */
+section.contact_section .contact .btn-floating {
+  background-color: #27961e;
+}
+
+/* line 376, ../sass/style.scss */
+footer.footer {
+  background-color: #4d4d4d;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+/* line 382, ../sass/style.scss */
+footer.footer .row {
+  margin-bottom: 0;
+}
+/* line 385, ../sass/style.scss */
+footer.footer .row .btn.share {
+  line-height: normal;
+  padding: 0.1rem 1rem;
+  height: auto;
+  background-color: #efefef;
+  color: #8e2fa5;
+}
+
+@media screen and (max-width: 325px) {
+  /* line 399, ../sass/style.scss */
+  .principal_section .black_back .language_div .language_english {
+    padding: 7px 33px;
+  }
+  /* line 403, ../sass/style.scss */
+  .principal_section .black_back .language_div .language_spanish {
+    padding: 7px 33px;
+  }
+}
+@media screen and (max-width: 415px) {
+  /* line 416, ../sass/style.scss */
+  .principal_section .black_back .full_name h1 {
+    margin-top: 8rem;
+    font-size: 4rem !important;
+  }
+  /* line 421, ../sass/style.scss */
+  .principal_section .black_back .full_name h4 {
+    font-size: 1.4rem;
+  }
+
+  /* line 430, ../sass/style.scss */
+  footer.footer .row span {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 991px) {
+  /* line 438, ../sass/style.scss */
+  ul.nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 447, ../sass/style.scss */
+  section.contact_section .contact .row {
+    width: 100%;
+  }
+}
